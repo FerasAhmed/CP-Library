@@ -48,6 +48,7 @@
     <Compile Include="DynammicComponents\QuickFind.cs" />
     <Compile Include="DynammicComponents\QuickUnion.cs" />
     <Compile Include="DataStructures\AdjacencyList.cs" />
+    <Compile Include="FlowNetworks\FordFulkerson.cs" />
     <Compile Include="GraphAlgorithms\BellmanFord.cs" />
     <Compile Include="GraphAlgorithms\Dijkstra.cs" />
     <Compile Include="GraphAlgorithms\FloydWarshall.cs" />

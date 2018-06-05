@@ -36,13 +36,22 @@ namespace AlgorithmsLibrary
             //    Console.WriteLine(pQ.Minimum());
             //    pQ.Extract_Minimum();
             //}
-
+            /*
             string str = @"spath.txt";
             AdjacencyList adjList = IOOperations.ReadAdjacencyGraph(str);
             Dijkstra ds = new Dijkstra(adjList, 0);
             ds.Run();
             for (int i = 1; i < 8; ++i)
                 Console.WriteLine(ds.DistanceTo(i));
+            */
+            List<FlowEdge> fdgList = new List<FlowEdge>();
+            FlowEdge a = new FlowEdge(0, 1, 10);
+            fdgList.Add(a);
+            FlowEdge[] fdgarr = new FlowEdge[10];
+            fdgarr[5] = fdgList[0];
+            fdgarr[5].a = 5;
+            fdgarr[5].addResidualFlowTo(5, 4);
+            Console.WriteLine(fdgList[0].ToString());
         }
     }
 }

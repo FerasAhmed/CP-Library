@@ -6,12 +6,6 @@ using AlgorithmsLibrary.DynammicComponents;
 
 namespace AlgorithmsLibrary.GraphAlgorithms
 {
-    public struct Edge
-    {
-        public int a, b;
-        public Edge(int _a, int _b) { a= _a; b= _b; }
-    }
-
     class Kruskal
     {
         int _nodes;
