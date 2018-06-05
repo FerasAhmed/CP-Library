@@ -10,7 +10,6 @@ namespace AlgorithmsLibrary.FlowNetworks
     class FordFulkerson
     {
         int edgeCount = 0;
-        int vertexCount = 0;
         double flowValue = 0;
         List<FlowEdge> [] flowGraph;
         FlowEdge[] edgeTo;
