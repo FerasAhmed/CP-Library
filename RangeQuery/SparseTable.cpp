@@ -48,6 +48,4 @@ int main() {
   for(int i = 0; i < n; ++i)
   for(int j = i; j < n; ++j)
   cout << "minimum for range(" <<i<<","<<j<<") is: "<< minimum(i, j) << endl;
-  
-  std::cout << "Hello World!\n";
 }
